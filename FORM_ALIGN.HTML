@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
         
         <div>
             <label for="">username</label>
-            <input type="text" name="username" id="" placeholder="Enter your username">
+            <input required type="text" name="username" id="" placeholder="Enter your username">
         </div>
         
 <hr>
@@ -90,4 +90,170 @@
 
 
 </body>
-</html>
+</html> -->
+
+
+
+
+
+
+<form action="">
+
+    <fieldset>
+
+        <legend>Form</legend>
+
+        <table border="1" cellpadding="10" cellspacing="5">
+
+            <!-- Username -->
+            <tr>
+                <td>
+                    <label for="username">Username</label>
+                </td>
+                <td>
+                    <input required
+                           type="text"
+                           name="username"
+                           id="username"
+                           placeholder="Enter your username">
+                </td>
+            </tr>
+
+            <!-- Password -->
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input required
+                           type="password"
+                           name="password"
+                           id="password"
+                           placeholder="Enter your password">
+                </td>
+            </tr>
+
+            <!-- Email -->
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input required
+                           type="email"
+                           name="email"
+                           id="email"
+                           placeholder="Enter your email">
+                </td>
+            </tr>
+
+            <!-- Phone Number -->
+            <tr>
+                <td>
+                    <label for="number">Phone Number</label>
+                </td>
+                <td>
+                    <input type="number"
+                           name="number"
+                           id="number"
+                           placeholder="Enter your number">
+                </td>
+            </tr>
+
+            <!-- DOB -->
+            <tr>
+                <td>
+                    <label for="date">DOB</label>
+                </td>
+                <td>
+                    <input type="date"
+                           name="date"
+                           id="date">
+                </td>
+            </tr>
+
+            <!-- Gender -->
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+
+                <td>
+                    <input type="radio"
+                           name="gender"
+                           id="male"
+                           value="male">
+
+                    <label for="male">Male</label>
+
+                    <input type="radio"
+                           name="gender"
+                           id="female"
+                           value="female">
+
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <!-- Skills -->
+            <tr>
+                <td>
+                    <label>Skills</label>
+                </td>
+
+                <td>
+                    <input type="checkbox"
+                           name="skills"
+                           id="html"
+                           value="html">
+
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox"
+                           name="skills"
+                           id="css"
+                           value="css">
+
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox"
+                           name="skills"
+                           id="js"
+                           value="js">
+
+                    <label for="js">JS</label>
+                </td>
+            </tr>
+
+            <!-- Terms and Conditions -->
+            <tr>
+                <td colspan="2">
+
+                    <input type="checkbox"
+                           name="checkbox"
+                           id="terms"
+                           required>
+
+                    <label for="terms">
+                        I agree to the terms and conditions
+                    </label>
+
+                </td>
+            </tr>
+
+            <!-- Submit -->
+            <tr>
+                <td colspan="2" align="center">
+
+                    <input type="submit"
+                           name="submit"
+                           value="Submit">
+
+                </td>
+            </tr>
+
+        </table>
+
+    </fieldset>
+
+</form>
