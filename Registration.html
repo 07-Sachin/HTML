@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Registration Form</legend>
+
+            <div>
+                <label for="fullname">Full Name</label>
+                <input name="fullname" id="fullname" type="text" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="username">Username</label>
+                <input name="username" id="username" type="text" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="password">Password</label>
+                <input name="password" id="password" type="password" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="confirm-password">Confirm Password</label>
+                <input name="confirm-password" id="confirm-password" type="password" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="phoneno">Phone Number</label>
+
+                <select name="countrycode">
+                    <option value="+91">India +91</option>
+                    <option value="+1">US +1</option>
+                    <option value="+44">UK +44</option>
+                    <option value="+7">Russia +7</option>
+                </select>
+
+                <input name="phoneno" id="phoneno" type="tel" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input name="dob" id="dob" type="date" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Gender</label>
+
+                <input name="gender" id="male" type="radio" value="male">
+                <label for="male">Male</label>
+
+                <input name="gender" id="female" type="radio" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <br>
+            <button type="submit">Register</button>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
