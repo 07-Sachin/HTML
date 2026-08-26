@@ -1,0 +1,54 @@
+body{
+    background-color:rgb(212, 243, 255) ;
+    margin: 15%  400px auto;
+}
+
+.one{
+    background-color: rgb(212, 243, 255);
+    border: rgb(113, 65, 254);
+    width: 500px;
+    padding: 30px;
+    border-style: dashed;
+    text-align: center;
+    /* margin-top: 40px ; */
+    
+}
+
+
+
+.two{
+    background-color: white;
+    text-align: center;
+    border: 4px solid rgb(65, 9, 230);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px ;
+
+}
+
+.three{
+    background-color: rgb(212, 243, 255);
+    /* border-style: dashed rgb(88, 4, 223); */
+    border: 3px dashed rgb(113, 65, 254);
+    padding: 10px;
+}
+.four{
+    background-color: rgb(212, 243, 255);
+    text-align: center;
+}
+button{
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+p{
+    padding: 0px;
+    margin: 0;
+}
+span{
+    color:rgb(65, 9, 230) ;
+}

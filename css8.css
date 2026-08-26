@@ -1,0 +1,44 @@
+.q{
+background-color: aqua;
+padding: 30px;
+width: 500px;
+margin: auto;
+margin-top: 150px;
+}
+.w{
+background-color: black;
+padding: 30px;
+}
+.e{
+background-color: aquamarine;
+padding: 30px;
+}
+.r{
+background-color:rgb(255,255,255);
+padding: 30px;
+}
+.t{
+background-color: rgba(174, 123, 218, 0.939);
+padding: 30px;
+}
+.y{
+background-color: hsl(30, 50%, 30%);
+padding: 30px;
+}
+.u{
+background-color: hsla(129, 92%, 47%, 0.28);
+padding: 30px;
+}
+.i{
+    background-color:#e99696;
+    padding: 30px;
+    background-image: url(./download.gif);
+}
+
+.img{
+    background-image: url(./download.gif);
+    height: 500px;
+    width: auto;
+    background-repeat: repeat;
+    
+}

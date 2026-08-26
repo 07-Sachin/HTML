@@ -1,0 +1,7 @@
+section{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 11px 7px orange;
+}
