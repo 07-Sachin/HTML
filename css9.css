@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+div{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.q{
+background-image: url(./download.gif);
+
+}
+
+.w{
+background-image: url(./Zoro\ One\ Piece\ GIF\ -\ Zoro\ One\ Piece\ -\ Descubre\ y\ comparte\ GIF.gif);
+}
+
+.e{
+background-image: url(./One\ Piece\ Luffy\ GIF\ -\ One\ Piece\ Luffy\ Straw\ Hat\ -\ Discover\ &\ Share\ GIFs.gif);
+}
+
+.r{
+background-image: url(./img4.gif);
+}

@@ -37,8 +37,13 @@ padding: 30px;
 
 .img{
     background-image: url(./download.gif);
-    height: 500px;
+    height: 700px;
     width: auto;
-    background-repeat: repeat;
+    background-repeat:no-repeat;
+    /* background-size:contain; */
+    background-size:cover;
+    /* background-size:100% 240px; */
+    /* background-size:100px 240px; */
+    /* background-size:240px; */
     
 }
