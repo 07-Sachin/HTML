@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 50vw;
+    /* background-attachment: fixed; */
+}
+
+.first{
+    background: linear-gradient(red, yellow);
+}
+
+.second{
+    background: linear-gradient(to right, blue, yellow);
+}
+
+.third{
+    background: linear-gradient(to left, green, lightgreen, yellow, lightblue, blue);
+}
+.four{
+    background: linear-gradient(135deg, red, yellow, green, lightblue, blue);
+}
+.fifth{
+    background: radial-gradient(rgb(23, 162, 91), blue);
+}
+.sixth{
+    background: radial-gradient(circle, red, rgb(23, 23, 10));
+}
+.seventh{
+    background: radial-gradient(ellipse, rgb(192, 204, 24),blue);
+}
+.eighth{
+        background: radial-gradient(circle at left, red, yellow, green, lightblue, blue);
+}
+
+.nineth {
+    background:
+        radial-gradient(circle at left top, red 2%, orange 5%, yellow 10%, white, transparent 50%),
+        radial-gradient(circle at right bottom, rgb(100, 91, 91), white, blue 25%, black 75%);
+}
+.ten{
+    background: conic-gradient(from 90deg, red , green, blue);
+}
+
+.eleven{
+    background: conic-gradient(from 45deg at top, red , green, blue, white);
+}
+
+.twelve{
+    background: repeating-radial-gradient( red 1px, blue 10px, green 10px, white 15px,black 20px);
+}
+
+.thirdten{
+    background: repeating-linear-gradient(to right, red 1px, blue 10px, green 15px, white 20px,black 25px);
+}
+.fourthen{
+
+
+}
