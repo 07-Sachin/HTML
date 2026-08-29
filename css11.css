@@ -1,0 +1,44 @@
+.heading{
+    color: coral;
+    font-size: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+.option{
+    word-spacing: 50px;
+    text-align: center;
+}
+span{      
+    font-size: 25px;
+
+}
+
+.photo{
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.one {
+    background-image: url("./download.gif");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+}
+
+.two {
+    background-image: url("./One Piece Luffy GIF - One Piece Luffy Straw Hat - Discover & Share GIFs.gif");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+}
+
+.three {
+    background-image: url("./download (1).gif");
+    width: 500px;
+    height: 300px;
+   
+
+}
