@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    border : 2px solid yellow;
+    height : 100vh;
+}
+ div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+ }
+
+.one{background-color: red;}
+.two{background-color:yellow;}
+.three{background-color: green;} */
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+section{
+    height: 40px;
+    width: 40px;
+    background-color: brown;
+}
+
+.one{
+    background-color: aqua;
+    justify-content: center;
+    align-items: start;
+}
+.two{
+    background-color: rgb(185, 197, 197);
+    justify-content: center;
+    align-items: start;
+}
+.three{
+    background-color: rgb(214, 80, 18);
+    justify-content: end;
+    align-items: center;
+}
+.four{
+    background-color: rgb(204, 221, 16);
+    align-items: center;
+    justify-content: start;
+
+}
+.five{
+    background-color: rgb(50, 216, 21);
+    justify-content: center;
+}
+.six{
+    background-color: rgb(98, 158, 136);
+    justify-content: center;
+}
+.seven{
+    background-color: rgb(9, 133, 228);
+    justify-content: end;
+    align-items: center;
+}
+.eight{
+    background-color: rgb(2, 12, 65);
+    justify-content: center;
+}
+.nine{
+    background-color: rgb(218, 17, 181);
+    justify-content: center;
+}
+.ten{
+    background-color: rgb(237, 28, 32);
+    justify-content: center;
+}
